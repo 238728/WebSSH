@@ -1,0 +1,5 @@
+{
+  "name": "WebSSH Terminal",
+  "description": "A beautiful and powerful web-based SSH terminal inspired by Termux and MobaXterm.",
+  "requestFramePermissions": []
+}
