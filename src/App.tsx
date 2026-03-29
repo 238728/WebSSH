@@ -1175,6 +1175,17 @@ function AppContent() {
           </div>
           <div className="flex items-center gap-1">
             <button 
+              onClick={() => {
+                const newMode = themeMode === 'light' ? 'dark' : 'light';
+                setThemeMode(newMode);
+                saveAppConfig(groups, connections, selectedThemeName, { themeMode: newMode });
+              }}
+              className="p-1.5 hover:bg-accent rounded-md transition-colors text-muted-foreground"
+              title={themeMode === 'light' ? "Switch to Dark Mode" : "Switch to Light Mode"}
+            >
+              {themeMode === 'light' ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4" />}
+            </button>
+            <button 
               onClick={() => setShowSettingsModal(true)}
               className="p-1.5 hover:bg-accent rounded-md transition-colors text-muted-foreground"
               title="Settings"
