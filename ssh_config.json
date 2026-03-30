@@ -1,0 +1,68 @@
+{
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default"
+    },
+    {
+      "id": "kw19tt15e",
+      "name": "New Group"
+    },
+    {
+      "id": "5rkcsc51x",
+      "name": "New Group"
+    }
+  ],
+  "connections": [
+    {
+      "name": "bandit",
+      "host": "bandit.labs.overthewire.org",
+      "port": 2220,
+      "username": "bandit0",
+      "password": "bandit0",
+      "groupId": "default",
+      "privateKey": "",
+      "passphrase": "",
+      "id": "gdid53ye2"
+    },
+    {
+      "name": "bandit1",
+      "host": "bandit.labs.overthewire.org",
+      "port": 2220,
+      "username": "bandit1",
+      "password": "ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If",
+      "groupId": "default",
+      "privateKey": "",
+      "passphrase": "",
+      "id": "85eljeob9"
+    },
+    {
+      "name": "bandit",
+      "host": "bandit.labs.overthewire.org",
+      "port": 2220,
+      "username": "bandit0",
+      "password": "bandit0",
+      "groupId": "kw19tt15e",
+      "privateKey": "",
+      "passphrase": "",
+      "id": "t42o4n6kn"
+    }
+  ],
+  "selectedTheme": "Monokai",
+  "terminalFontSize": 14,
+  "terminalFontFamily": "\"JetBrains Mono\", \"Fira Code\", monospace",
+  "cursorStyle": "block",
+  "cursorBlink": true,
+  "scrollback": 1000,
+  "sidebarWidth": 256,
+  "showHostInSidebar": true,
+  "confirmOnClose": false,
+  "confirmOnDeletion": true,
+  "autoReconnect": false,
+  "defaultUsername": "",
+  "defaultPort": 22,
+  "themeMode": "light",
+  "showSftpPanel": false,
+  "sftpDefaultPath": "/",
+  "sftpShowHiddenFiles": false
+}
