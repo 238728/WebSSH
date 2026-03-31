@@ -1,4 +1,4 @@
-# Web SSH
+# WebSSH
 
 ## Use locally
 
@@ -19,4 +19,6 @@ And then visit [https://localhost:3000](https://localhost:3000) in your broswer 
 
 ## Use on the web
 
-This section is still under work. Some bugs are still being fixed. Check it out later.
+This project requires `socket.io` as its dependency, which doesn't work in static site generators.
+
+One choice is to use a `Dockerfile` and deploy the backend to a server function site (e.g. Render, Railway, Zeabur, etc.), but the backend repo is still under work. Check back later.
