@@ -12,6 +12,7 @@ cd WebSSH
 Then run: 
 
 ```bash
+npm install
 npm run build:start
 ```
 
